@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <filter>
+        <filter-name>MagazineFilter</filter-name>
+        <filter-class>filter.MagazineFilter</filter-class>
+        <init-param>
+            <param-name>counter</param-name>
+            <param-value>0</param-value>
+        </init-param>
+    </filter>
+    <filter>
+        <filter-name>LoginFilter</filter-name>
+        <filter-class>filter.LoginFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>LoginFilter</filter-name>
+        <url-pattern>/index.jsp</url-pattern>
+  
+        <url-pattern>/login.jsp</url-pattern>
+        <url-pattern>/addMagazine.jsp</url-pattern>
+        
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>MagazineFilter</filter-name>
+        <url-pattern>/magazine</url-pattern>
+    </filter-mapping>
+</web-app>

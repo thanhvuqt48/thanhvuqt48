@@ -1,0 +1,174 @@
+    .size-button {
+        display: inline-block;
+        padding: 0;
+        margin: 5px;
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        background-color: #fff;
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    .size-button input[type="radio"] {
+        display: none;
+    }
+
+    .size-button label {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .size-button:hover {
+        background-color: #f0f0f0;
+    }
+
+    .size-button input[type="radio"]:checked + label {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .size-button:focus {
+        outline: none;
+    }
+    
+/* Ẩn nút radio */
+input[type="radio"] {
+    display: none;
+}
+
+/* Hiển thị border khi nút radio được chọn */
+input[type="radio"]:checked + label {
+    border: 1px solid blue; /* Màu và kiểu border bạn muốn */
+    border-radius: 5px; /* Bo tròn viền */
+    padding: 5px; /* Thêm padding cho đẹp */
+}
+/* CSS cho các nút */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Màu cho nút Sign Up */
+.signup-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Màu cho nút Login và Logout */
+.login-button,
+.logout-button {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+/* Hover effect */
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Padding cho footer */
+.footer-cta {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* Chỉnh màu chữ cho footer */
+.footer-cta {
+  color: #fff;
+}
+/* Thêm một chút khoảng trắng giữa văn bản và biểu tượng */
+.footer-cta i {
+    margin-left: 5px;
+}
+
+/* Đảm bảo rằng biểu tượng có đủ không gian */
+.footer-cta i::before {
+    width: 1.25em; /* Điều chỉnh theo kích thước của biểu tượng */
+}
+
+/* Đảm bảo rằng biểu tượng sẽ hiển thị đúng kích thước */
+.footer-cta i {
+    font-size: inherit;
+}
+
+/* Đảm bảo biểu tượng Font Awesome sẽ hiển thị đúng */
+.fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+.search-container {
+  position: relative;
+  padding-right: 30px;
+}
+
+.search-input {
+  padding-right: 30px; /* Để tạo không gian cho nút search */
+}
+
+.search-button {
+  position: absolute;
+  top: -3px;
+  right: 30px;
+  background: none;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  color: #007bff; /* Màu khi hover */
+}
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Điều chỉnh độ cong của border */
+    font-size: 16px;
+    outline: none; /* Loại bỏ border khi ô input được focus */
+    transition: border-color 0.3s ease; /* Tạo hiệu ứng mượt mà khi focus */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Màu border khi ô input được focus */
+}
+
+
+.btn-search {
+    flex-shrink: 0; /* Không cho nút search co giãn */
+}
+
+.fa-shopping-cart {
+    font-size: 24px; /* Kích thước của biểu tượng giỏ hàng */
+    color: #fff; /* Màu của biểu tượng */
+    margin-left: 10px; /* Khoảng cách với nút gần nhất */
+}
+/* CSS cho nút trong form */
+.form-cart {
+    background-color: transparent; /* Màu nền trong suốt */
+    border: none; /* Loại bỏ viền */
+    cursor: pointer; /* Biến con trỏ thành hình cần thiết khi rê chuột vào nút */
+    padding: 0; /* Xóa padding mặc định */
+}
+
+/* CSS cho biểu tượng trong nút */
+form button i {
+    font-size: 24px; /* Kích thước của biểu tượng */
+    color: #333; /* Màu của biểu tượng */
+}
