@@ -2,7 +2,7 @@
 - 👀 I’m interested in playing video games, playing football and listening to music
 - 🌱 I’m currently learning Java Developer course
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me : contact ig _thanhvu.48
+- 📫 How to reach me : contact ig p_thanhvux
 
 <!---
 thanhvuqt48/thanhvuqt48 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
